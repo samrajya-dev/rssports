@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>RS SPORTS & FITNESS | Contact</title>	
+	<!-- Meta tag Keywords -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="keywords" content="RS SPORTS & FITNESS" />
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+		
+		function hideURLbar(){
+			if (window.scrollY == 0) window.scrollTo(0,1);
+		}
+	</script>
+
+	<!-- css files -->
+	<link rel="stylesheet" href="css/bootstrap.css"> <!-- Bootstrap-Core-CSS -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" /> <!-- Style-CSS --> 
+	<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="all" /> <!-- Style-CSS --> 
+	<!-- //css files -->
+	
+	<!--web font-->
+	<link href="//fonts.googleapis.com/css?family=Hind:300,400,500,600,700&amp;subset=devanagari,latin-ext" rel="stylesheet">
+	<!--//web font-->
+
+<style type="text/css">
+	
+@media only screen and (max-width: 600px) {
+
+.header-top-image-text img{
+	width: 50px !important;
+	height: 100%;
+}
+.header-top-image-text h1{
+	font-size: 18px;
+	padding-top: 16px !important;
+}
+.header .container{
+	display: flex;
+}
+.header .container .nav_w3dls .menu{
+	left: 0;
+	margin-top: 45px;
+	position: absolute;
+}
+
+.carousel .carousel-inner{
+	height: 35vh !important;
+}
+.home-page-caption{
+	top: 25% !important;
+}
+.home-page-caption h1{
+	font-size: 22px !important;
+}
+.service-card{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100% !important;
+}
+.contactus-column{
+	padding-top: 12px;
+}
+.contactus-column .col p{
+	line-height: 20px;
+}
+
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- header -->
+<header>
+	<div class="header bg-dark fixed-top">
+		<div class="container  d-lg-flex justify-content-between align-items-center">
+
+			<div class="header-top-image-text" style="display: flex;">
+				<img src="images\RS Logo.png" class="navbar-brand" style="width: 100px;">
+				<h1 style="padding-top: 25px; color: white; font-weight: bold;"> SPORTS & FITNESS </h1>
+			</div>
+
+			<div class="nav_w3dls">
+				<nav>
+					<label for="drop" class="toggle mt-lg-0 mt-1"><span class="fa fa-bars" aria-hidden="true"></span></label>
+					<input type="checkbox" id="drop" />
+						<ul class="menu">
+							<li class="mr-lg-3 mr-2"><a href="index.html">Home</a></li>
+							<li class="mr-lg-3 mr-2"><a href="index.html#aboutus">About </a></li>
+							<li class="mr-lg-3 mr-2"><a href="products.html">Products</a></li>
+							<li class="mr-lg-3 mr-2"><a href="rental.html">Rental</a></li>
+							<li class="mr-lg-3 mr-2 p-0">
+								<label for="drop-2" class="toggle">Services <span class="fa fa-angle-down" aria-hidden="true"></span>
+								</label>
+								<a href="services.html">Services <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+								<input type="checkbox" id="drop-2"/>
+								<ul class="inner-dropdown">
+									<li><a href="services.html#repairservice">Repair and Service</a></li>
+									<li><a href="services.html#amc">AMC</a></li>
+									<li><a href="services.html#gymsetup">GYM Setup</a></li>
+									<li><a href="training.html">Training</a></li>
+								</ul>
+							</li>
+							<li class="active"><a href="contact.html">Contact</a></li>
+						</ul>
+				</nav>
+			</div>
+
+		</div>
+	</div>
+</header>
+<!-- //header -->
+
+<!-- contact -->
+<div class="contact py-sm-5" id="contact" style="margin-top: 5%;">
+	<div class="container py-xl-5 py-lg-3">
+		<h3 class="heading mb-3 text-center">Contact Us</h3>
+		<div class="row pt-lg-4">
+			<div class="col-lg-6">
+				<div class="row">
+					<div class="col-lg-10 col-md-7">
+						<div class="contact-top">
+							<h4 class="about-left-agile font-weight-bold mb-2">Get In Touch </h4>
+							<p>New Sangvi, Famous Chowk, Near Asmita Family Restaurant, Mata Market, Ground Floor, Shop NO.1 Pune Pin code - 411061</p>
+							<p>Phone : +91 7350288277 / +91 9823711722</p>
+							<p>Mail : <a href="mailto:rssportsfitness21@gmail.com" class="">rssportsfitness21@gmail.com</a></p>
+						</div>
+						<hr>
+						<ul class="social mb-4">
+							<li><a href="#"><span class="fa fa-instagram icon_facebook"></span></a></li>
+							<li><a href="#"><span class="fa fa-facebook icon_facebook"></span></a></li>
+							<li><a href="#"><span class="fa fa-whatsapp icon_google-plus"></span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 mt-lg-0 mt-5">
+				<!-- register form grid -->
+				<div class="register-top1">
+					<form action="#" method="post" class="register-wthree">
+						<div class="form-group">
+							<div class="row">
+								<?php echo $alert; ?>	
+								<div class="col-md-6">
+									<label>
+										First name :
+									</label>
+									<input class="form-control" type="text" placeholder="First name" id="fname" name="fname" value="" required="">
+								</div>
+								<div class="col-md-6 mt-md-0 mt-4">
+									<label>
+										Last name
+									</label>
+									<input class="form-control" type="text" placeholder="Last name" id="lname" name="lname" value="" required="">
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="row">
+								<div class="col-md-6">
+									<label>
+										Mobile
+									</label>
+									<input class="form-control" type="text" placeholder="xxxx xxxx xx" id="mobile" name="mobile" value="" required="">
+								</div>
+								<div class="col-md-6 mt-md-0 mt-4">
+									<label>
+										Email
+									</label>
+									<input class="form-control" type="email" placeholder="example@mail.com" id="email" name="email" value="" required="">
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="row">
+								<div class="col-md-12">
+									<label>
+										Your message
+									</label>
+									<textarea placeholder="Add your Description here" id="message" name="message" class="form-control"></textarea>
+								</div>
+							</div>
+						</div>
+						<div class="row mt-3">
+							<div class="col-md-12">
+								<button type="submit" name="contactform" class="btn btn-aasana-w3 btn-block w-25">Send</button>
+							</div>
+						</div>
+					</form>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+</div>
+<!-- //contact-->
+
+	
+<!-- footer -->
+<footer class="py-sm-5">
+	<div class="container">
+		<div class="footer-grids text-center">
+			<h2 class="logo"><a href="index.html">RS SPORTS & FITNESS</a></h2>
+		</div>
+		<!-- to top -->
+<!-- 		<div class="top-icon text-center mt-0">
+			<a href="#home" class="move-top text-center"><span class="fa fa-angle-double-up" aria-hidden="true"></span> Go to top</a>
+		</div> -->
+		<!-- //to top -->
+		<div class="middle mt-0">
+			<ul class="social mb-4">
+				<li><a href="#"><span class="fa fa-facebook icon_facebook"></span></a></li>
+				<li><a href="#"><span class="fa fa-instagram icon_instagram"></span></a></li>
+				<li><a href="#"><span class="fa fa-linkedin icon_linkedin"></span></a></li>
+			</ul>
+			<p>© Copyright 2021 <a href="index.html">RS SPORTS & FITNESS.</a> All Rights Reserved</p>
+		</div>
+	</div>
+<div class="position-fixed" style="top: 50%;">
+	<div>
+		<ul>
+			<li style="height: 40px; width: 50px; background: #26D367;">
+				<span><!-- https://wa.me/0000000?text=Hello!%20 -->
+					<a style=" font-size: 32px; padding-left: 12px; color: white;" href="https://api.whatsapp.com/send?phone=917350288277" target="_blank">
+						<i class="fa fa-whatsapp" ></i>
+					</a>
+				</span>
+			</li>
+			<li style="height: 40px; width: 50px; background: skyblue;">
+				<span>
+					<a style=" font-size: 32px; padding-left: 12px; color: white;" href="tel:+917350288277">
+						<i class="fa fa-phone" ></i>
+					</a>
+				</span>
+			</li>
+		</ul>
+	</div>
+</div>
+</footer>
+<!-- //footer -->
+
+<script type="text/javascript">
+	if (window.history.replaceState) {
+		window.history.replaceState(null, null, window.location.href);
+	}
+</script>
+
+
+</body>
+</html>
